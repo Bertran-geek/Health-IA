@@ -1,0 +1,35 @@
+# --- Web framework ---
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.17
+
+# --- Data validation / settings ---
+pydantic==2.10.3
+pydantic-settings==2.6.1
+
+# --- Database ---
+SQLAlchemy==2.0.35
+PyMySQL==1.1.1
+cryptography==44.0.0
+
+# --- AI / LLM orchestration ---
+langchain==0.3.9
+langchain-core==0.3.21
+langchain-community==0.3.8
+langchain-groq==0.2.1
+langgraph==0.2.53
+
+# --- Security ---
+PyJWT==2.10.1
+passlib[bcrypt]==1.7.4
+slowapi==0.1.9
+
+# --- Cache (optional) ---
+redis==5.2.1
+
+# --- Data / analytics / charts ---
+pandas==2.2.3
+matplotlib==3.9.3
+
+# --- Utils ---
+python-dotenv==1.0.1
